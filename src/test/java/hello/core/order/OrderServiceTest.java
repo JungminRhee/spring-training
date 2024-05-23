@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 
 public class OrderServiceTest {
-    
+
     MemberService memberService;
     OrderService orderService;
 
@@ -32,4 +32,6 @@ public class OrderServiceTest {
         Assertions.assertThat(order.getDiscountPrice()).isEqualTo(1000);
 
     }
+
+
 }
