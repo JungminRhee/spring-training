@@ -9,7 +9,7 @@
     </appender>
 
     <!-- 루트 로거 설정: WARN 레벨 이상의 로그만 출력 -->
-    <root level="DEBUG">
+    <root level="WARN">
         <appender-ref ref="STDOUT"/>
     </root>
 
